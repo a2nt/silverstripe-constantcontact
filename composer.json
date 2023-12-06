@@ -1,0 +1,23 @@
+{
+    "name": "a2nt/silverstripe-constantcontac",
+    "description": "Constant Contact integration with SilverStripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "constantcontact"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Tony Air",
+        "email": "tony@twma.pro"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "A2nt\\ConstantContact\\": "src/"
+        }
+    }
+}
