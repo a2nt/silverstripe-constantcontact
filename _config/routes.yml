@@ -1,0 +1,10 @@
+---
+Name: a2nt-constant-contact-routes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+
+SilverStripe\Control\Director:
+  rules:
+    'constantcontact': 'A2nt\ConstantContact\Controller'

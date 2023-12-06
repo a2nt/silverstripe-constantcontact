@@ -1,0 +1,7 @@
+---
+Name: a2nt-constant-contact-extensions
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - A2nt\ConstantContact\SiteConfigEx

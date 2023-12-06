@@ -1,0 +1,7 @@
+---
+Name: a2nt-constant-contact-api
+---
+A2nt\ConstantContact\Controller:
+  apikey: '`CONSTANT_CONTACT_API_KEY`'
+  secret: '`CONSTANT_CONTACT_SECRET`'
+  redirecturl: 'constantcontact/authorizeCC/'
